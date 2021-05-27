@@ -1,21 +1,27 @@
 function  add () {
     var result_add = Number(document.getElementById("add_num_1").value)  + Number(document.getElementById("add_num_2").value);
-   document.getElementById("add_ans").innerHTML = result_add
+   document.getElementById("add_ans").innerHTML = result_add;
       
     }
 
     function  sub () {
         var result_sub = Number(document.getElementById("sub_num_1").value)  - Number(document.getElementById("sub_num_2").value);
-       document.getElementById("sub_ans").innerHTML = result_sub
+       document.getElementById("sub_ans").innerHTML = result_sub;
           
         }
 
         function  mult () {
             var result_mult = Number(document.getElementById("mult_num_1").value)  * Number(document.getElementById("mult_num_2").value);
-           document.getElementById("mult_ans").innerHTML = result_mult
+           document.getElementById("mult_ans").innerHTML = result_mult;
         }
 
         function  div () {
             var result_div = Number(document.getElementById("div_num_1").value)  / Number(document.getElementById("div_num_2").value);
-           document.getElementById("div_ans").innerHTML = result_div
+           document.getElementById("div_ans").innerHTML = result_div;
+        }
+
+        function sqrt () {
+        var number_sqrt = Number(document.getElementById("sqrt_num_1").value);
+        var result_sqrt = Math.sqrt(number_sqrt);
+document.getElementById("sqrt_ans").innerHTML = result_sqrt;
         }

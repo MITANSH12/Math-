@@ -55,3 +55,15 @@ color: dodgerblue;
                 background-color: red;
                 color: dodgerblue;    
                 }
+
+            #sqrt_num_1 {
+            background-color: red;
+            color: dodgerblue;   
+            }
+
+            #cal_sqrt {
+                background-color: blue;
+                color: white;
+                font-family: comic;
+                font-weight: bold;
+                }
